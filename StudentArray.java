@@ -47,8 +47,10 @@ class StudentArray{
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		Student s[]=new Student[n];
+		System.out.println("Enter total subjects for all students");
+		int n=sc.nextInt()
 		for(int i=0;i<n;i++){
-			s[i]=new Student();
+			s[i]=new Student(n);
 			s[i].setStudent();
 		}
 		for(int i=0;i<n;i++){
